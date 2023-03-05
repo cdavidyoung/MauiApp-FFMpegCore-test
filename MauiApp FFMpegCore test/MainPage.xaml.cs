@@ -10,14 +10,6 @@ public partial class MainPage : ContentPage
    public MainPage()
    {
       InitializeComponent();
-      try
-      {
-         FFMpegHelper.VerifyFFMpegExists(new FFOptions());
-      }
-      catch (Exception ex)
-      {
-         CounterBtn.Text = $"Exception {ex}";
-      }
    }
 
    private void OnCounterClicked(object sender, EventArgs e)
@@ -29,7 +21,16 @@ public partial class MainPage : ContentPage
       else
          CounterBtn.Text = $"Clicked {count} times";
 
-      SemanticScreenReader.Announce(CounterBtn.Text);
+        try
+        {
+            FFMpegHelper.VerifyFFMpegExists(new FFOptions());
+        }
+        catch (Exception ex)
+        {
+            CounterBtn.Text = $"Exception {ex}";
+        }
+
+        SemanticScreenReader.Announce(CounterBtn.Text);
    }
 }
 
