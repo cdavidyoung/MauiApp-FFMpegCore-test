@@ -601,7 +601,7 @@
     <AppxPackagedFile Include="C:\Users\charl\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.28\lib\net6.0\WinRT.Runtime.dll">
       <PackagePath>WinRT.Runtime.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\charl\.nuget\packages\ffmpegcore\5.0.10\lib\netstandard2.0\FFMpegCore.dll">
+    <AppxPackagedFile Include="C:\Users\charl\.nuget\packages\ffmpegcore\5.0.2\lib\netstandard2.0\FFMpegCore.dll">
       <PackagePath>FFMpegCore.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\charl\.nuget\packages\instances\3.0.0\lib\netstandard2.0\Instances.dll">

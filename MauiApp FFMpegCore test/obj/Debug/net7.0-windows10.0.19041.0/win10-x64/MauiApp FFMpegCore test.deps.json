@@ -9,7 +9,7 @@
     ".NETCoreApp,Version=v7.0/win10-x64": {
       "MauiApp FFMpegCore test/1.0": {
         "dependencies": {
-          "FFMpegCore": "5.0.10",
+          "FFMpegCore": "5.0.2",
           "Microsoft.Extensions.Configuration": "7.0.0",
           "Microsoft.Extensions.DependencyInjection": "7.0.0",
           "Microsoft.Extensions.Logging": "7.0.0",
@@ -789,7 +789,7 @@
           }
         }
       },
-      "FFMpegCore/5.0.10": {
+      "FFMpegCore/5.0.2": {
         "dependencies": {
           "Instances": "3.0.0",
           "System.Text.Json": "7.0.2"
@@ -1057,12 +1057,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "FFMpegCore/5.0.10": {
+    "FFMpegCore/5.0.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Tz6NBdScukJ6+89nrg2I6ByYpAV8lJP8QrWUW/vb12O56T0B6HXPJSsuq3/dwOo7QUyskfQMw1zG3eL4OywAfA==",
-      "path": "ffmpegcore/5.0.10",
-      "hashPath": "ffmpegcore.5.0.10.nupkg.sha512"
+      "sha512": "sha512-w6IWPMdgsPzLKz+WvLpFsQuB6Oj4dygxcjFvNH60/zMpVFaHOOPfe0TWHW35xnbY7RnpM+thAuDTjQtqy/4e/A==",
+      "path": "ffmpegcore/5.0.2",
+      "hashPath": "ffmpegcore.5.0.2.nupkg.sha512"
     },
     "Instances/3.0.0": {
       "type": "package",

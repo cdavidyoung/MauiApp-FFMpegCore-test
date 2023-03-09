@@ -29,25 +29,25 @@
     <AppXManifest Include="C:\Users\charl\source\repos\MauiApp FFMpegCore test\MauiApp FFMpegCore test\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-03-04T18:16:29.568</Modified>
+      <Modified>2023-03-09T12:25:00.091</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\charl\source\repos\MauiApp FFMpegCore test\MauiApp FFMpegCore test\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-03-04T18:16:28.758</Modified>
+      <Modified>2023-03-09T12:24:59.607</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\charl\source\repos\MauiApp FFMpegCore test\MauiApp FFMpegCore test\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\MauiApp FFMpegCore test.runtimeconfig.json">
       <PackagePath>MauiApp FFMpegCore test.runtimeconfig.json</PackagePath>
-      <Modified>2023-03-04T18:01:06.103</Modified>
+      <Modified>2023-03-09T12:09:07.295</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\charl\source\repos\MauiApp FFMpegCore test\MauiApp FFMpegCore test\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\MauiApp FFMpegCore test.dll">
       <PackagePath>MauiApp FFMpegCore test.dll</PackagePath>
-      <Modified>2023-03-04T18:09:09.824</Modified>
+      <Modified>2023-03-09T12:24:58.582</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\charl\source\repos\MauiApp FFMpegCore test\MauiApp FFMpegCore test\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>MauiApp FFMpegCore test.exe</PackagePath>
-      <Modified>2023-03-04T18:09:09.850</Modified>
+      <Modified>2023-03-09T12:24:58.591</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\charl\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.2\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -801,9 +801,9 @@
       <PackagePath>WinRT.Runtime.dll</PackagePath>
       <Modified>2022-11-16T01:34:42.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\charl\.nuget\packages\ffmpegcore\5.0.10\lib\netstandard2.0\FFMpegCore.dll">
+    <AppxPackagedFile Include="C:\Users\charl\.nuget\packages\ffmpegcore\5.0.2\lib\netstandard2.0\FFMpegCore.dll">
       <PackagePath>FFMpegCore.dll</PackagePath>
-      <Modified>2023-03-03T00:11:02.000</Modified>
+      <Modified>2023-02-21T17:50:12.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\charl\.nuget\packages\instances\3.0.0\lib\netstandard2.0\Instances.dll">
       <PackagePath>Instances.dll</PackagePath>
@@ -927,7 +927,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\charl\source\repos\MauiApp FFMpegCore test\MauiApp FFMpegCore test\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\MauiApp FFMpegCore test.deps.json">
       <PackagePath>MauiApp FFMpegCore test.deps.json</PackagePath>
-      <Modified>2023-03-04T18:16:29.359</Modified>
+      <Modified>2023-03-09T12:24:59.915</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Ref.win\7.0.59\ref\net7.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
