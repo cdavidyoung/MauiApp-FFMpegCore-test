@@ -1,5 +1,7 @@
 ﻿using FFMpegCore.Helpers;
 using FFMpegCore;
+using FFMpegCore.Exceptions;
+using Instances;
 
 namespace MauiApp_FFMpegCore_test;
 
@@ -21,11 +23,11 @@ public partial class MainPage : ContentPage
       else
          CounterBtn.Text = $"Clicked {count} times";
 
-        pickTest();
+        // pickTest();
         
         try
         {
-            FFMpegHelper.VerifyFFMpegExists(new FFOptions());
+           /*FFMpegHelper.*/VerifyFFMpegExists(new FFOptions());
         }
         catch (Exception ex)
         {
@@ -33,6 +35,33 @@ public partial class MainPage : ContentPage
         }
 
         SemanticScreenReader.Announce(CounterBtn.Text);
+   }
+
+   private static bool _ffmpegVerified;
+   public static void VerifyFFMpegExists(FFOptions ffMpegOptions)
+   {
+      string exText = string.Empty;
+      if (_ffmpegVerified)
+      {
+         return;
+      }
+
+      try
+      {
+         var result = Instance.Finish(GlobalFFOptions.GetFFMpegBinaryPath(ffMpegOptions), "-version");
+         _ffmpegVerified = result.ExitCode == 0;
+      }
+
+      catch (Exception ex)
+      {
+         exText = ex.Message;
+         _ffmpegVerified = false;
+      }
+
+      if (!_ffmpegVerified)
+      {
+         throw new FFMpegException(FFMpegExceptionType.Operation, $"ffmpeg was not found on your system : {exText}");
+      }
    }
 
    public async Task<FileResult> PickAndShow(PickOptions options)
