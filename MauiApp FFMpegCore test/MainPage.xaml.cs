@@ -54,13 +54,13 @@ public partial class MainPage : ContentPage
 
       catch (Exception ex)
       {
-         exText = ex.Message;
+         exText = ex.InnerException.Message;
          _ffmpegVerified = false;
       }
 
       if (!_ffmpegVerified)
       {
-         throw new FFMpegException(FFMpegExceptionType.Operation, $"ffmpeg was not found on your system : {exText}");
+         throw new FFMpegException(FFMpegExceptionType.Operation, $"{exText}");
       }
    }
 
