@@ -12,34 +12,34 @@ build_property.EnableSingleFileAnalyzer = true
 build_property.EnableTrimAnalyzer = false
 build_property.IncludeAllContentForSelfExtract = 
 build_property.RootNamespace = MauiApp_FFMpegCore_test
-build_property.ProjectDir = C:\Users\charl\source\repos\MauiApp FFMpegCore test\MauiApp FFMpegCore test\
+build_property.ProjectDir = /Volumes/Mac only extern/MauiApp-FFMpegCore-test/MauiApp FFMpegCore test/
 
-[C:/Users/charl/source/repos/MauiApp FFMpegCore test/MauiApp FFMpegCore test/App.xaml]
+[/Volumes/Mac only extern/MauiApp-FFMpegCore-test/MauiApp FFMpegCore test/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MauiApp_FFMpegCore_test.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/charl/source/repos/MauiApp FFMpegCore test/MauiApp FFMpegCore test/AppShell.xaml]
+[/Volumes/Mac only extern/MauiApp-FFMpegCore-test/MauiApp FFMpegCore test/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MauiApp_FFMpegCore_test.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/charl/source/repos/MauiApp FFMpegCore test/MauiApp FFMpegCore test/MainPage.xaml]
+[/Volumes/Mac only extern/MauiApp-FFMpegCore-test/MauiApp FFMpegCore test/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MauiApp_FFMpegCore_test.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[C:/Users/charl/source/repos/MauiApp FFMpegCore test/MauiApp FFMpegCore test/Resources/Styles/Colors.xaml]
+[/Volumes/Mac only extern/MauiApp-FFMpegCore-test/MauiApp FFMpegCore test/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MauiApp_FFMpegCore_test.Resources.Styles.Colors.xaml
-build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
-build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources/Styles/Colors.xaml
 
-[C:/Users/charl/source/repos/MauiApp FFMpegCore test/MauiApp FFMpegCore test/Resources/Styles/Styles.xaml]
+[/Volumes/Mac only extern/MauiApp-FFMpegCore-test/MauiApp FFMpegCore test/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MauiApp_FFMpegCore_test.Resources.Styles.Styles.xaml
-build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
-build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources/Styles/Styles.xaml

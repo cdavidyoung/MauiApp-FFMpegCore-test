@@ -27,7 +27,7 @@ public partial class MainPage : ContentPage
         
         try
         {
-           /*FFMpegHelper.*/VerifyFFMpegExists(new FFOptions());
+           /*FFMpegHelper.*/VerifyFFMpegExists(new FFOptions { BinaryFolder = "/opt/homebrew/bin", TemporaryFilesFolder = "/tmp" });
         }
         catch (Exception ex)
         {
@@ -48,13 +48,14 @@ public partial class MainPage : ContentPage
 
       try
       {
-         var result = Instance.Finish(GlobalFFOptions.GetFFMpegBinaryPath(ffMpegOptions), "-version");
+         var path = GlobalFFOptions.GetFFMpegBinaryPath(ffMpegOptions);
+         var result = Instance.Finish(path, "-version");
          _ffmpegVerified = result.ExitCode == 0;
       }
 
       catch (Exception ex)
       {
-         exText = ex.InnerException.Message;
+         exText = ex.Message;
          _ffmpegVerified = false;
       }
 

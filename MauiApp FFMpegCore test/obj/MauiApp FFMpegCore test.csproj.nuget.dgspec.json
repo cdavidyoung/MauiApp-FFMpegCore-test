@@ -1,39 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\charl\\source\\repos\\MauiApp FFMpegCore test\\MauiApp FFMpegCore test\\MauiApp FFMpegCore test.csproj": {}
+    "/Volumes/Mac only extern/MauiApp-FFMpegCore-test/MauiApp FFMpegCore test/MauiApp FFMpegCore test.csproj": {}
   },
   "projects": {
-    "C:\\Users\\charl\\source\\repos\\MauiApp FFMpegCore test\\MauiApp FFMpegCore test\\MauiApp FFMpegCore test.csproj": {
+    "/Volumes/Mac only extern/MauiApp-FFMpegCore-test/MauiApp FFMpegCore test/MauiApp FFMpegCore test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\charl\\source\\repos\\MauiApp FFMpegCore test\\MauiApp FFMpegCore test\\MauiApp FFMpegCore test.csproj",
+        "projectUniqueName": "/Volumes/Mac only extern/MauiApp-FFMpegCore-test/MauiApp FFMpegCore test/MauiApp FFMpegCore test.csproj",
         "projectName": "MauiApp FFMpegCore test",
-        "projectPath": "C:\\Users\\charl\\source\\repos\\MauiApp FFMpegCore test\\MauiApp FFMpegCore test\\MauiApp FFMpegCore test.csproj",
-        "packagesPath": "C:\\Users\\charl\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\charl\\source\\repos\\MauiApp FFMpegCore test\\MauiApp FFMpegCore test\\obj\\",
+        "projectPath": "/Volumes/Mac only extern/MauiApp-FFMpegCore-test/MauiApp FFMpegCore test/MauiApp FFMpegCore test.csproj",
+        "packagesPath": "/Users/charlesyoung/.nuget/packages/",
+        "outputPath": "/Volumes/Mac only extern/MauiApp-FFMpegCore-test/MauiApp FFMpegCore test/obj/",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\charl\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/charlesyoung/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0-android",
           "net7.0-ios",
-          "net7.0-maccatalyst",
-          "net7.0-windows10.0.19041.0"
+          "net7.0-maccatalyst"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "C:\\Users\\charl\\source\\repos\\FFMpegCore-cdy\\FFMpegCore\\obj\\Debug": {},
-          "C:\\Users\\charl\\source\\repos\\GitHub\\Plugin.Maui.Audio\\src\\Plugin.Maui.Audio\\bin\\Debug": {},
-          "C:\\Users\\charl\\source\\repos\\Xamarin.MediaGallery\\MediaGallery\\bin\\Debug": {},
+          "/Users/charlesyoung/Library/CloudStorage/GoogleDrive-charlesdavidyoung@gmail.com/My Drive/gammaDog/ffmpegcore": {},
+          "/Users/charlesyoung/Library/CloudStorage/GoogleDrive-charlesdavidyoung@gmail.com/My Drive/gammaDog/plugin.maui.audio/1.0.0": {},
+          "/usr/local/share/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -47,10 +39,6 @@
           },
           "net7.0-maccatalyst16.1": {
             "targetAlias": "net7.0-maccatalyst",
-            "projectReferences": {}
-          },
-          "net7.0-windows10.0.19041": {
-            "targetAlias": "net7.0-windows10.0.19041.0",
             "projectReferences": {}
           }
         },
@@ -66,7 +54,7 @@
           "dependencies": {
             "FFMpegCore": {
               "target": "Package",
-              "version": "[5.0.2, )"
+              "version": "[5.0.3, )"
             },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
@@ -181,14 +169,14 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.202/RuntimeIdentifierGraph.json"
         },
         "net7.0-ios16.1": {
           "targetAlias": "net7.0-ios",
           "dependencies": {
             "FFMpegCore": {
               "target": "Package",
-              "version": "[5.0.2, )"
+              "version": "[5.0.3, )"
             },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
@@ -248,14 +236,14 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.202/RuntimeIdentifierGraph.json"
         },
         "net7.0-maccatalyst16.1": {
           "targetAlias": "net7.0-maccatalyst",
           "dependencies": {
             "FFMpegCore": {
               "target": "Package",
-              "version": "[5.0.2, )"
+              "version": "[5.0.3, )"
             },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
@@ -316,108 +304,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
-        },
-        "net7.0-windows10.0.19041": {
-          "targetAlias": "net7.0-windows10.0.19041.0",
-          "dependencies": {
-            "FFMpegCore": {
-              "target": "Package",
-              "version": "[5.0.2, )"
-            },
-            "Microsoft.Extensions.Configuration": {
-              "target": "Package",
-              "version": "[7.0.0, )",
-              "autoReferenced": true
-            },
-            "Microsoft.Extensions.DependencyInjection": {
-              "target": "Package",
-              "version": "[7.0.0, )",
-              "autoReferenced": true
-            },
-            "Microsoft.Extensions.Logging": {
-              "target": "Package",
-              "version": "[7.0.0, )",
-              "autoReferenced": true
-            },
-            "Microsoft.Extensions.Logging.Abstractions": {
-              "target": "Package",
-              "version": "[7.0.0, )",
-              "autoReferenced": true
-            },
-            "Microsoft.Extensions.Logging.Debug": {
-              "target": "Package",
-              "version": "[7.0.0, )"
-            },
-            "Microsoft.Maui.Graphics": {
-              "target": "Package",
-              "version": "[7.0.59, )",
-              "autoReferenced": true
-            },
-            "Microsoft.Maui.Graphics.Win2D.WinUI.Desktop": {
-              "target": "Package",
-              "version": "[7.0.59, )",
-              "autoReferenced": true
-            },
-            "Microsoft.Windows.SDK.BuildTools": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[10.0.22621.755, )",
-              "autoReferenced": true
-            },
-            "Microsoft.WindowsAppSDK": {
-              "target": "Package",
-              "version": "[1.2.221209.1, )",
-              "autoReferenced": true
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
-              "version": "[7.0.2, 7.0.2]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Runtime.win-x64",
-              "version": "[7.0.2, 7.0.2]"
-            },
-            {
-              "name": "Microsoft.Windows.SDK.NET.Ref",
-              "version": "[10.0.19041.28, 10.0.19041.28]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
-              "version": "[7.0.2, 7.0.2]"
-            }
-          ],
-          "frameworkReferences": {
-            "Microsoft.Maui.Controls": {
-              "privateAssets": "all"
-            },
-            "Microsoft.Maui.Core": {
-              "privateAssets": "all"
-            },
-            "Microsoft.Maui.Essentials": {
-              "privateAssets": "all"
-            },
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            },
-            "Microsoft.Windows.SDK.NET.Ref": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.202/RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
@@ -437,9 +324,6 @@
           "#import": []
         },
         "maccatalyst-x64": {
-          "#import": []
-        },
-        "win10-x64": {
           "#import": []
         }
       }
